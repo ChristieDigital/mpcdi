@@ -343,7 +343,7 @@ This extension includes a `<GeneratedBy>` node that has a string that somehow id
 
 The definition of `region` in MPCDI lacks the ability to specify lens info such as fisheye coefficients and/or anamorphic parameters. Instead of hacking these directly onto the `region` node, a `<BufferExtension>` node is added, that parallels the `buffer` node.  For each `buffer` and each `region` that needs extra data, the extra data can be found in the `BufferExtension`.
 
-A full explanation of the fisheye and anamorphic extensions can be found in the https://github.com/tvaneerd/mpcdi/blob/master/fisheye.md document.
+A full explanation of the fisheye and anamorphic extensions can be found in the [fisheye.md](fisheye.md) document.
 
 
 [airplane]: MPCDI_plane.png "secret <coordinateframe> decoder ring"
