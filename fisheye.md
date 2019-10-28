@@ -89,7 +89,7 @@ Lastly there is a skew `<angle>`. Lenses are not always attached 100% aligned.  
 
 
 
-[fisheye]: https://github.com/tvaneerd/mpcdi/blob/master/fisheye.PNG "simple equidistant fisheye lens"
-[fisheyeflat]: https://github.com/tvaneerd/mpcdi/blob/master/fisheyeflat.PNG "on the sensor"
-[anamorphicRatio]: https://github.com/tvaneerd/mpcdi/blob/master/anamorphicRatio.PNG "anamorphicRatio of 1.2"
-[anamorphicAngle]: https://github.com/tvaneerd/mpcdi/blob/master/anamorphicAngle.PNG "anamorphic skew angle"
+[fisheye]: fisheye.PNG "simple equidistant fisheye lens"
+[fisheyeflat]: fisheyeflat.PNG "on the sensor"
+[anamorphicRatio]: anamorphicRatio.PNG "anamorphicRatio of 1.2"
+[anamorphicAngle]: anamorphicAngle.PNG "anamorphic skew angle"
