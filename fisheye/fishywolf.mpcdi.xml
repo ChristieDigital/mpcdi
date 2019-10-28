@@ -179,7 +179,7 @@
             <buffer id="fishywolf.cal">
                 <region id="SP-SX+_01">
                     <fisheye>
-                        <horizontalOffset>-0.20000</horizontalOffset>
+                        <horizontalOffset>0.20000</horizontalOffset>
                         <verticalOffset>0.30000</verticalOffset>
                         <f1>42.60000</f1>
                         <f3>0.00211</f3>
