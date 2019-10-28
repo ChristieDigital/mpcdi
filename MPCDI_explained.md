@@ -346,9 +346,9 @@ The definition of `region` in MPCDI lacks the ability to specify lens info such 
 A full explanation of the fisheye and anamorphic extensions can be found in the https://github.com/tvaneerd/mpcdi/blob/master/fisheye.md document.
 
 
-[airplane]: https://github.com/tvaneerd/mpcdi/blob/master/MPCDI_plane.png "secret <coordinateframe> decoder ring"
-[frustum]: https://github.com/tvaneerd/mpcdi/blob/master/ThrowRatioAndOffset.png "secret <frustum> decoder ring"
-[fov]: https://github.com/tvaneerd/mpcdi/blob/master/fov.PNG "fov != L + R"
+[airplane]: MPCDI_plane.png "secret <coordinateframe> decoder ring"
+[frustum]: ThrowRatioAndOffset.png "secret <frustum> decoder ring"
+[fov]: fov.PNG "fov != L + R"
 
 
 
