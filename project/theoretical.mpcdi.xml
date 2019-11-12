@@ -80,58 +80,58 @@
         </buffer>
     </display>
     <files>
+        <fileset region="Staging Projector_01">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
+        <fileset region="Staging Projector_02">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
+        <fileset region="SP-SX+_03">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
     </files>
-    <fileset region="Staging Projector_01">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
-    <fileset region="Staging Projector_02">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
-    <fileset region="SP-SX+_03">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
     <extensionSet>
         <extension Name="MystiqueExtension" hasExternalFiles="false">
             <GeneratedBy>Mystique Install (Engineering Build) 2.1.0.0 Nov  2 2018</GeneratedBy>
