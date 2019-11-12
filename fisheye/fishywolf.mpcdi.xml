@@ -105,75 +105,75 @@
         </buffer>
     </display>
     <files>
+        <fileset region="SP-SX+_01">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
+        <fileset region="SP-SX+_02">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
+        <fileset region="SP-SX+_05">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
+        <fileset region="SP-SX+_06">
+            <geometryWarpFile>
+                <geometricUnit>m</geometricUnit>
+                <originOf3DData>unknown</originOf3DData>
+                <path></path>
+                <interpolation>unknown</interpolation>
+            </geometryWarpFile>
+            <alphaMap>
+                <bitDepth>8</bitDepth>
+                <componentDepth>1</componentDepth>
+                <gammaEmbedded>1.00000</gammaEmbedded>
+                <path></path>
+            </alphaMap>
+            <distortionMap>
+                <path></path>
+            </distortionMap>
+        </fileset>
     </files>
-    <fileset region="SP-SX+_01">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
-    <fileset region="SP-SX+_02">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
-    <fileset region="SP-SX+_05">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
-    <fileset region="SP-SX+_06">
-        <geometryWarpFile>
-            <geometricUnit>m</geometricUnit>
-            <originOf3DData>unknown</originOf3DData>
-            <path></path>
-            <interpolation>unknown</interpolation>
-        </geometryWarpFile>
-        <alphaMap>
-            <bitDepth>8</bitDepth>
-            <componentDepth>1</componentDepth>
-            <gammaEmbedded>1.00000</gammaEmbedded>
-            <path></path>
-        </alphaMap>
-        <distortionMap>
-            <path></path>
-        </distortionMap>
-    </fileset>
     <extensionSet>
         <extension Name="BufferExtension" hasExternalFiles="false">
             <buffer id="fishywolf.cal">
