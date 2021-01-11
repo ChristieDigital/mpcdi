@@ -10,3 +10,5 @@ To export the data, Mystique uses Vesa standard MPCDI 2.0 xml files.
 
 Some info and examples for helping Christie partners read Mystique generated MPCDI files can be found here.
 
+It is best to start with [MPCDI_explained](MPCDI_explained.md)
+
