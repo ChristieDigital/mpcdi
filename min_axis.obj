@@ -1,0 +1,78 @@
+#
+# This is an intentially minimalistic obj file that helps show a number of things:
+#
+# 1. Primary use: axis orientation - there are 3 triangles forming 3 "arrows", pointing in axis directions.
+#    The big arrow points in the X direction, then mdeium arrow points to positive Y, the smallest points in positive Z
+#    So,
+#
+#    *** loading this file into a program will let you know how that program interprets XYZ from obj files ***
+#
+#    ie does the X arrow point to the right?  Is the Y arrow up or is Z up? Or down? etc
+#
+# 1.b Also, the arrows/triangles are 1 unit in length. So this gives you some sense of how a unit is interpretted
+#
+# 2. UV mapping - loading a texture should map the center of the texture to the center of the axes
+#    the UV map is essentially the 3 triangles, but Y and Z are folded down along their "hinge" with the X arrow:
+#
+#    +---------+---------+
+#    |        /|         |
+#    |       / |--__     |
+#    |      / Y| X  --__ |
+#    |     +---+---------+
+#    |         |Z/       |
+#    |         | |       |
+#    |         |/        |
+#    +---------+---------+
+#
+
+#
+# vertices
+# one for each unit direction: x, y, z
+#
+v 1.0 0.0 0.0
+v 0.0 1.0 0.0
+v 0.0 0.0 1.0
+# and the origin:
+v 0.00000 0.0000 0.000000
+# and these will help form triangles of different sizes:
+v 0.0 0.6 0.0
+v 0.0 0.0 0.45
+v 0.3 0.0 0.0
+
+#
+# normals, pointing in the base directions
+#
+vn 1.0 0.0 0.0
+vn 0.0 1.0 0.0
+vn 0.0 0.0 1.0
+
+#
+# texture UV coords
+#
+# 0.0 0.0 is BOTTOM-left of texture, 1.0 1.0 is TOP right
+# so first one (0.5 0.5) is center of texture (which we will map to origin)
+#
+vt 0.5 0.5
+#
+# next 3 are for the points of the axis coords,
+# the middle of the right, top, and bottom edges of the UV:
+#
+vt 1.0 0.5
+vt 0.5 1.0
+vt 0.5 0.0
+#
+# and these 3 should match the "help form triangles" vertices above
+# (ie if you move those vertices, you should tweak these uv coords)
+# imagine the Y and Z triangles folded down to lay flat with the X triangle - see diagram above
+#
+vt 0.5 0.80
+vt 0.275 0.5
+vt 0.65 0.5
+
+#
+# faces. A face is (at least) 3 points (format is v/vt/vn for each point of a face)
+# The first face is the X arrow, then the Y then Z
+#
+f 1/2/3 4/1/3 5/5/3
+f 2/3/1 4/1/1 6/6/1
+f 3/4/2 4/1/2 7/7/2
