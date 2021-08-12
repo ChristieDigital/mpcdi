@@ -2,7 +2,7 @@
 # This is an intentially minimalistic obj file that helps show a number of things:
 #
 # 1. Primary use: axis orientation - there are 3 triangles forming 3 "arrows", pointing in axis directions.
-#    The big arrow points in the X direction, then mdeium arrow points to positive Y, the smallest points in positive Z
+#    The big arrow points in the X direction, the medium arrow points to positive Y, the smallest points in positive Z
 #    So,
 #
 #    *** loading this file into a program will let you know how that program interprets XYZ from obj files ***
