@@ -1,6 +1,6 @@
 The MPCDI spec is a VESA spec, and the full specification can be found online.
 
-However, many have found the doc less than clear, so here is some additional notes; ie my understanding of the spec.
+However, many have found the doc less than clear, so here are some additional notes; ie my understanding of the spec.  Also, much of this is from the perspective of [Christie Mystique](https://www.christiedigital.com/solutions/projection-mapping) projection mapping software, but should apply to any use of MPCDI.
 
 _These are NOT a substitute for reading and following the official VESA spec_
 
@@ -88,7 +88,7 @@ Let's look at each part.
 `<coordinateframe>`
 ------------
 
-The `<coordinateframe>` node in the MPCDI xml spec is not... obvious:
+The `<coordinateframe>` node in the MPCDI xml spec is not... obvious.
 
     <coordinateFrame>
         <posx>1.76840</posx>
@@ -135,7 +135,7 @@ and you - or the audience - are sitting in the plane,
 and you and the plane are facing the screen or object we want to project onto.
 (similarly, when designing in 3D software, imagine forward is _into_ the computer screen).
 
-Now, in this scenario, the Pitch Axis arrow is pointing to the right - let's call that the X axis (as everyone seems to agree X is to the right).
+Now, in this scenario, the Pitch Axis arrow is pointing to the right - let's call that the X axis (as _almost_ everyone seems to agree X is to the right).
 So we encode that into the `<coordinateframe>`:
 
         <pitchx>1.00000</pitchx>
@@ -169,9 +169,9 @@ To encode the Mystique coordinate system, we fill out the coordinateFrame with:
         <rolly>1.00000</rolly>  // Roll ie forward is Y
         <rollz>0.00000</rollz>
 
-ie the tip of Yaw axis arrow is at (0,0,-1) ie -1 in Z, ie positive Z is up
-the tip of the Pitch axis arrow is at (1,0,0) ie 1 in X, as X is to the right (as always)
-the tip of the Roll axis (ie forward) is at (0,1,0) ie Y is forward
+ie the tip of Yaw axis arrow is at (0,0,-1) ie -1 in Z, ie positive Z is up  
+the tip of the Pitch axis arrow is at (1,0,0) ie 1 in X, as X is to the right (as always)  
+the tip of the Roll axis (ie forward) is at (0,1,0) ie Y is forward  
 
 So now we know that the position:
 
@@ -240,7 +240,7 @@ The 4 angles form a field of view of the projected light.  Positive angles are t
 
 Looking down at a planar projection from above,
 
-`L` is the `<leftAngle>`  - note this is likely negative
+`L` is the `<leftAngle>`  - note this is likely negative  
 `R` is the `<rightAngle>`  
 `t` is the throw distance  
 `e` is the distance to the left (resulting from `leftAngle`)  
